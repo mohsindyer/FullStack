@@ -1,0 +1,277 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo{
+    margin-left: 60px;
+}
+
+header{
+    display: flex;
+    padding: 25px;
+    background-color: #e3e8f3;
+    margin: -10px;
+}
+
+header div{
+    flex: 1;
+}
+
+header nav{
+    flex: 11;
+}
+
+header ul{
+    display: flex;
+}
+
+header ul li{
+    flex: 1;
+    list-style: none;
+}
+
+header a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.shopButton a{
+    text-decoration: none;
+    color: #248586;
+    font-weight: bold;
+}
+
+a:hover{
+    /* text-decoration */
+    color: #248586;
+}
+
+.bannerBlock img{
+    width: 101.4%;
+    margin: -10px;
+}
+
+.absoluteHero{
+    position: absolute;
+    top: 150px;
+    left: 100px;
+    
+}
+
+.shopButton{
+    width: 300px;
+    height: 200px;
+    background-image: url("images/button.png");
+    background-repeat: no-repeat;
+}
+
+.shopLink{
+    color: #027f83; 
+    /* align-items: center; */
+    position: absolute;
+    top: 300px;
+    left: 70px;
+}
+
+.featureCards{
+    width: 100%;
+    display: flex;
+    justify-content:space-around;
+    color: #027f83;
+    margin-top: 50px;
+}
+
+.Cards{
+    border: solid 0.5px #ccc;
+    border-radius: 2px;
+    width: 12%;
+    height: 175px;
+    margin: auto;
+
+    /* justify-content: center; */
+    position: relative
+}
+
+.Cards img{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    margin: -50px 0 0 -80px;
+}
+
+.Cards h5{
+    position: absolute;
+    top: 58%;
+    left: 22%;
+}
+
+.productCards{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 0.0001fr);
+    width: 100%;
+    margin-left: 30px;
+}
+
+.productCards img{
+    width: 260px;
+    /* max-height: 100px; */
+    /* object-fit: cover; */
+    border-radius: 20px;
+}
+
+.productCards1{
+    border: solid #ccc 0.5px;
+    border-radius: 20px;
+    padding: 20px;
+    width: 260px;
+    height: 400px;
+    /* margin: 10px; */
+    display: flex;
+    flex-direction: column;
+}
+
+.productCards p{
+    color: #ccc;
+}
+
+.productCards h4{
+    margin-top: -10px;
+}
+
+.smallBanner{
+    background-image: url("/Assignment\ 1/images/banner/b2.jpg");
+    width: 100%;
+    color: white;
+}
+
+.insideSmallBanner{
+    text-align: center;
+    height: 270px;
+}
+
+.insideSmallBanner h3{
+    padding-top: 45px;
+    font-size: 20px;
+}
+
+.insideSmallBanner h1{
+    font-size: 47px;
+}
+
+
+.insideSmallBanner button{
+    height: 50px;
+    width: 130px;
+    background-color: white;
+    border-radius: 7px;
+}
+
+.buy1card{
+    background-image: url("/Assignment\ 1/images/banner/b17.jpg");
+    background-repeat: no-repeat;
+    color: white;
+    height: 330px;
+    width: auto;
+}
+
+.spring-summer{    
+    background-image: url("/Assignment\ 1/images/banner/b10.jpg");
+    background-repeat: no-repeat;
+    color: white;
+    height: 330px;
+    width: auto;
+}
+
+.twoCards{
+    display: grid;
+    grid-template-columns: repeat(2, 0.46fr);
+    width: 100%;
+    /* height: 100px; */
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+.threeCards{
+    display: grid;
+    grid-template-columns: repeat(3, 0.3fr);
+    width: 100%;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+.seasonal{
+    background-image: url("/Assignment\ 1/images/banner/b7.jpg");
+    background-repeat: no-repeat;
+    color: white;
+    background-size: 400px auto;
+    height: 400px;
+    width: 400px;
+    
+}
+
+.footwear{
+    background-image: url("/Assignment\ 1/images/banner/b4.jpg");
+    background-repeat: no-repeat;
+    color: white;
+    background-size: 400px auto;
+    height: 400px;
+    width: 400px;
+}
+
+.t-shirts{
+    background-image: url("/Assignment\ 1/images/banner/b18.jpg");
+    background-repeat: no-repeat;
+    color: white;
+    background-size: 400px auto;
+    height: 400px;
+    width: 400px;
+
+}
+
+.lastBanner{
+    background-image: url("/Assignment\ 1/images/banner/b2.jpg");
+    width: 100%;
+    color: white;
+    display: flex;
+    margin-top: -120px;
+    height: 170px;
+}
+
+.lastBanner input{
+    width: 300px;
+    height: 50px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    margin: 60px 0px 0px 450px;
+    padding-left: 15px;
+    border: none;
+}
+
+.lastBanner button{
+    width: 120px;
+    height: 52px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: none;
+    background-color: #007e82;
+    margin-left: -10px;
+    color: white;
+}
+
+.footer{
+    margin: 60px 0px 80px 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer p{
+    color: #969599; 
+}
+
+.footer a{
+    text-decoration: none;
+    color: #969599;
+}
+
