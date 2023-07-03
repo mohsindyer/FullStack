@@ -62,7 +62,7 @@ a:hover{
 .shopButton{
     width: 300px;
     height: 200px;
-    background-image: url("images/button.png");
+    background-image: url("/Assignments/Project\ 1/images/button.png");
     background-repeat: no-repeat;
 }
 
@@ -141,7 +141,7 @@ a:hover{
 }
 
 .smallBanner{
-    background-image: url("/Assignment\ 1/images/banner/b2.jpg");
+    background-image: url("/Assignments/Project\ 1/images/banner/b2.jpg");
     width: 100%;
     color: white;
 }
@@ -169,7 +169,7 @@ a:hover{
 }
 
 .buy1card{
-    background-image: url("/Assignment\ 1/images/banner/b17.jpg");
+    background-image: url("/Assignments/Project\ 1/images/banner/b17.jpg");
     background-repeat: no-repeat;
     color: white;
     height: 330px;
@@ -177,7 +177,7 @@ a:hover{
 }
 
 .spring-summer{    
-    background-image: url("/Assignment\ 1/images/banner/b10.jpg");
+    background-image: url("/Assignments/Project\ 1/images/banner/b10.jpg");
     background-repeat: no-repeat;
     color: white;
     height: 330px;
@@ -202,7 +202,7 @@ a:hover{
 }
 
 .seasonal{
-    background-image: url("/Assignment\ 1/images/banner/b7.jpg");
+    background-image: url("/Assignments/Project\ 1/images/banner/b7.jpg");
     background-repeat: no-repeat;
     color: white;
     background-size: 400px auto;
@@ -212,7 +212,7 @@ a:hover{
 }
 
 .footwear{
-    background-image: url("/Assignment\ 1/images/banner/b4.jpg");
+    background-image: url("/Assignments/Project\ 1/images/banner/b4.jpg");
     background-repeat: no-repeat;
     color: white;
     background-size: 400px auto;
@@ -221,7 +221,7 @@ a:hover{
 }
 
 .t-shirts{
-    background-image: url("/Assignment\ 1/images/banner/b18.jpg");
+    background-image: url("/Assignments/Project\ 1/images/banner/b18.jpg");
     background-repeat: no-repeat;
     color: white;
     background-size: 400px auto;
@@ -231,7 +231,7 @@ a:hover{
 }
 
 .lastBanner{
-    background-image: url("/Assignment\ 1/images/banner/b2.jpg");
+    background-image: url("/Assignments/Project\ 1/images/banner/b2.jpg");
     width: 100%;
     color: white;
     display: flex;
