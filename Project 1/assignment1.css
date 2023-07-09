@@ -6,20 +6,31 @@ body{
     margin-left: 60px;
 }
 
+.underHeader{
+    margin-top: -810px;
+}
+
+.underHeader img{
+    width: 101.4%;
+    margin-left: -10px;
+}
+
 header{
     display: flex;
     padding: 25px;
     background-color: #e3e8f3;
     margin: -10px;
+    position: sticky;
+    top: 0;
 }
 
 header div{
     flex: 1;
 }
 
-header nav{
+/* header nav{
     flex: 11;
-}
+} */
 
 header ul{
     display: flex;
@@ -34,23 +45,27 @@ header a{
     text-decoration: none;
     color: black;
     font-weight: bold;
-    position: fixed;
 }
 
 .shopButton a{
     text-decoration: none;
     color: #248586;
     font-weight: bold;
+    font-size: large;
 }
 
 a:hover{
     /* text-decoration */
     color: #248586;
+    border-bottom: solid;
 }
 
 .bannerBlock img{
     width: 101.4%;
+    /* width: 1444px; */
     margin: -10px;
+    /* height: 800px; */
+    /* object-fit:cover; */
 }
 
 .absoluteHero{
@@ -61,8 +76,8 @@ a:hover{
 }
 
 .shopButton{
-    width: 300px;
-    height: 200px;
+    width: 500px;
+    height: 400px;
     background-image: url("./images/button.png");
     background-repeat: no-repeat;
 }
@@ -81,6 +96,7 @@ a:hover{
     justify-content:space-around;
     color: #027f83;
     margin-top: 50px;
+    /* background-color: white; */
 }
 
 .Cards{
@@ -91,7 +107,7 @@ a:hover{
     margin: auto;
 
     /* justify-content: center; */
-    position: relative
+    position: relative;
 }
 
 .Cards img{
@@ -109,42 +125,81 @@ a:hover{
 
 .productCards{
     margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    gap: 10px;
+    /* margin-left: 30px; */
+}
+
+/* .productCards{
+    margin-top: 20px;
     display: grid;
     grid-template-columns: repeat(4, 0.0001fr);
     width: 100%;
     margin-left: 30px;
-}
+} */
 
 .productCards img{
     width: 260px;
     /* max-height: 100px; */
     /* object-fit: cover; */
     border-radius: 20px;
+    margin-top: 10px;
 }
 
 .productCards1{
-    border: solid #ccc 0.5px;
+    border: solid lightgray 0.1px;
     border-radius: 20px;
-    padding: 20px;
-    width: 260px;
-    height: 400px;
+    padding: 5px 20px 20px 20px;
+    width: 250px;
+    height: 360px;
     /* margin: 10px; */
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
 }
 
 .productCards p{
     color: #ccc;
+    margin-top: -10px
 }
 
-.productCards h4{
+.shirtName{
     margin-top: -10px;
+}
+
+.stars{
+    margin-top: -15px;
+}
+
+.price{
+    margin-top:3%;
+    color: #248586;
+}
+
+.cartButton{
+    background-color: #e7f7f3;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    padding: 10px;
+    margin: -60px 0px 0px 220px;
+}
+
+.cartButton i{
+    margin: 5px 0px 0px 3px;
+}
+
+.productText{
+    margin-left: 10px;
 }
 
 .smallBanner{
     background-image: url("./images/banner/b2.jpg");
     width: 100%;
     color: white;
+    margin-left: -7px;
 }
 
 .insideSmallBanner{
@@ -174,7 +229,7 @@ a:hover{
     background-repeat: no-repeat;
     color: white;
     height: 330px;
-    width: auto;
+    width: 600px;
 }
 
 .spring-summer{    
@@ -182,33 +237,39 @@ a:hover{
     background-repeat: no-repeat;
     color: white;
     height: 330px;
-    width: auto;
+    width: 570px;
 }
 
 .twoCards{
-    display: grid;
-    grid-template-columns: repeat(2, 0.46fr);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    /* grid-template-columns: repeat(2, 0.46fr); */
     width: 100%;
     /* height: 100px; */
     margin-top: 40px;
-    margin-left: 30px;
+    /* margin-left: 30px; */
 }
 
 .threeCards{
-    display: grid;
-    grid-template-columns: repeat(3, 0.3fr);
-    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: row; */
+    justify-content: center;
+    /* grid-template-columns: repeat(3, 0.3fr); */
+    /* width: 100%; */
     margin-top: 40px;
-    margin-left: 40px;
+    gap: none;
 }
 
 .seasonal{
     background-image: url("./images/banner/b7.jpg");
     background-repeat: no-repeat;
     color: white;
-    background-size: 400px auto;
-    height: 400px;
-    width: 400px;
+    background-size: 370px auto;
+    height: 200px;
+    width: 443px;
     
 }
 
@@ -217,17 +278,17 @@ a:hover{
     background-repeat: no-repeat;
     color: white;
     background-size: 400px auto;
-    height: 400px;
-    width: 400px;
+    height: 200px;
+    width: 478px;
 }
 
 .t-shirts{
     background-image: url("./images/banner/b18.jpg");
     background-repeat: no-repeat;
     color: white;
-    background-size: 400px auto;
-    height: 400px;
-    width: 400px;
+    background-size: 348px auto;
+    height: 200px;
+    width: 418px;
 
 }
 
@@ -236,7 +297,8 @@ a:hover{
     width: 100%;
     color: white;
     display: flex;
-    margin-top: -120px;
+    margin-top: 50px;
+    margin-left: -8px;
     height: 170px;
 }
 
