@@ -22,6 +22,7 @@ header{
     margin: -10px;
     position: sticky;
     top: 0;
+    z-index: 1;
 }
 
 header div{
@@ -57,14 +58,14 @@ header a{
 a:hover{
     /* text-decoration */
     color: #248586;
-    border-bottom: solid;
+    border-bottom: 5px solid;
 }
 
 .bannerBlock img{
-    width: 101.4%;
-    /* width: 1444px; */
+    /* width: 101.4%; */
+    width: 1444px;
     margin: -10px;
-    /* height: 800px; */
+    height: 800px;
     /* object-fit:cover; */
 }
 
@@ -270,7 +271,6 @@ a:hover{
     background-size: 370px auto;
     height: 200px;
     width: 443px;
-    
 }
 
 .footwear{
