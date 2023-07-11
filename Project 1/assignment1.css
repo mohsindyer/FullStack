@@ -29,9 +29,9 @@ header div{
     flex: 1;
 }
 
-/* header nav{
+header nav{
     flex: 11;
-} */
+}
 
 header ul{
     display: flex;
@@ -65,20 +65,43 @@ header a{
     font-size: large;
 }
 
-/* .homeli::after{
+.homeli::after{
     content: "";
     position: absolute;
-    bottom: -2.5px;
+    bottom: -5px;
     left: 0;
-    width:50%;
-    height: 5px;
-    background-color: rgb(85, 197, 231);
-}  */
+    width:60%;
+    height: 3px;
+    background-color: #248586;
+}
+
+.homeli:hover{
+    width: 3.05% !important;
+}
+
+.shopli::after{
+    content: "";
+    /* position: absolute; */
+    bottom: -5px;
+    left: 0;
+    width:60%;
+    height: 3px;
+    background-color: #248586;
+}
+
+.shopli a:hover{
+    position: absolute;
+    width: 3.05% !important;
+}
+
+header a{
+    position: fixed;
+}
 
 header a:hover{
     /* text-decoration */
     color: #248586;
-    border-bottom: 5px solid;
+    /* border-bottom: 5px solid; */
     /* content: "";
     position: absolute;
     bottom: -2.5px;
@@ -316,7 +339,14 @@ header a:hover{
     background-size: 348px auto;
     height: 200px;
     width: 418px;
+}
 
+.seasonal, .footwear, .t-shirts{
+    background-size: cover;
+    background-position: center;
+    /* height: 300px; */
+    /* width: 400px; */
+    margin-right: 10px;
 }
 
 .lastBanner{
