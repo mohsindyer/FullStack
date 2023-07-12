@@ -13,6 +13,7 @@ body{
 .underHeader img{
     width: 101.4%;
     margin-left: -10px;
+    /* margin-bottom: 30px; */
 }
 
 header{
@@ -65,112 +66,30 @@ header a{
     font-size: large;
 }
 
-/* .homeli::after{
+.homeli::after,
+.shopli::after,
+.blogli::after,
+.aboutli::after,
+.contactli::after {
     content: "";
     position: absolute;
     bottom: -5px;
     left: 0;
-    width:60%;
+    width: 0%; /* Adjust the width to control the border length */
     height: 3px;
     background-color: #248586;
+    /* transition: width 0.3s;  */
 }
 
-.homeli:hover{
-    width: 3.05% !important;
-} */
-/* Comment */
-
-/*
-.shopli::after{
-    content: "";
-    /* position: absolute; */
-    /* bottom: -5px; */
-    /* left: 0; */
-    /* width:60%; */
-    /* height: 3px; */
-    /* background-color: #248586; */
-/* } */
-
-/* .shopli:hover{ */
-    /* position: absolute; */
-    /* width: 3.05% !important; */
-    /* border-bottom: 5px solid #248586; */
-/* } */
-/* Comment */
+.shopli:hover::after,
+.blogli:hover::after,
+.aboutli:hover::after,
+.contactli:hover::after {
+  width: 50%; /* Adjust the width to control the border length on hover */
+}
 
 .homeli::after{
-    content: "";
-    position: absolute;
-    bottom: -5px;
-    left: 0;
-    width:60%;
-    height: 3px;
-    background-color: #248586;
-}
-
-.homeli:hover{
-    width: 3.05% !important;
-    border-bottom: 5px solid #248586;
-}
-
-.shopli::after{
-    content: "";
-    position: absolute;
-    bottom: -5px;
-    left: 0;
-    width:60%;
-    height: 3px;
-    /* background-color: #248586; */
-}
-
-.shopli:hover{
-    width: 3.05% !important;
-    border-bottom: 3px solid #248586;
-}
-
-.blogli::after{
-    content: "";
-    position: absolute;
-    bottom: -5px;
-    left: 0;
-    width:60%;
-    height: 3px;
-    /* background-color: #248586; */
-}
-
-.blogli:hover{
-    width: 3.05% !important;
-    border-bottom: 5px solid #248586;
-}
-
-.aboutli::after{
-    content: "";
-    position: absolute;
-    bottom: -5px;
-    left: 0;
-    width:60%;
-    height: 3px;
-    /* background-color: #248586; */
-}
-
-.aboutli:hover{
-    width: 3.05% !important;
-    border-bottom: 5px solid #248586;
-}
-
-.contacli:t:after{
-    content: "";
-    position: absolute;
-    bottom: -5px;
-    left: 0;
-    width:60%;
-    height: 3px;
-    /* background-color: #248586; */
-}
-
-.contacli:hover{
-    width: 3.05% !important;
-    border-bottom: 5px solid #248586;
+    width: 50%;
 }
 
 header a{
@@ -196,6 +115,10 @@ header a:hover{
     margin: -10px;
     height: 800px;
     /* object-fit:cover; */
+    /* background-size: cover; */
+    /* background-position: center bottom; Crop the bottom portion */
+    /* transform: translateY(20%); Adjust the percentage as needed */
+    /* margin-top: -200px; */
     
 }
 
@@ -227,8 +150,9 @@ header a:hover{
     display: flex;
     justify-content:space-around;
     color: #027f83;
-    margin-top: 50px;
-    /* background-color: white; */
+    /* margin-top: 50px; */
+    /* background-color: black; */
+    height: 300px;
 }
 
 .Cards{
