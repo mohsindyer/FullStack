@@ -109,27 +109,44 @@ header a:hover{
     background-color: rgb(85, 197, 231); */
 }
 
-.bannerBlock{
-    background-size: cover;
-    background-position: center bottom; /* Crop the bottom portion */
-    transform: translateY(20%); /* Adjust the percentage as needed */
-    margin-top: -10%;
-}
+/* .bannerBlock{ */
+    /* background-size: cover; */
+    /* background-position: center bottom; Crop the bottom portion */
+    /* transform: translateY(20%); Adjust the percentage as needed */
+    /* margin-top: -10%; */
+/* } */
 
-.bannerBlock img{
+/* .bannerBlock img{ */
     /* width: 101.4%; */
-    width: 1444px;
-    margin: -10px;
-    height: 800px;
+    /* width: 1444px; */
+    /* margin: -10px; */
+    /* height: 800px; */
     /* object-fit:cover; */
-    background-size: cover;
-    background-position: center bottom;  /* Crop the bottom portion */
-    transform: translateY(20%); /*Adjust the percentage as needed */
+    /* background-size: cover; */
+    /* background-position: center bottom;  Crop the bottom portion */
+    /* transform: translateY(20%); Adjust the percentage as needed */
     /* margin-top: -200px; */
-    margin-top: -10%;
+    /* margin-top: -10%; */
     
-}
+/* } */
 
+.bannerBlock .imageContainer {
+    width: 100%;
+    height: 800px;
+    overflow: hidden;
+  }
+
+  .bannerBlock{
+    margin-top: -137px;
+  }
+  
+  .bannerBlock .imageContainer img {
+    position: relative;
+    top: -200px;
+    transform: translateY(40%);
+    width: 100%;
+    object-fit: cover;
+  }
 
 .absoluteHero{
     position: absolute;
