@@ -109,16 +109,24 @@ header a:hover{
     background-color: rgb(85, 197, 231); */
 }
 
+.bannerBlock{
+    background-size: cover;
+    background-position: center bottom; /* Crop the bottom portion */
+    transform: translateY(20%); /* Adjust the percentage as needed */
+    margin-top: -10%;
+}
+
 .bannerBlock img{
     /* width: 101.4%; */
     width: 1444px;
     margin: -10px;
     height: 800px;
     /* object-fit:cover; */
-    /* background-size: cover; */
-    /* background-position: center bottom; Crop the bottom portion */
-    /* transform: translateY(20%); Adjust the percentage as needed */
+    background-size: cover;
+    background-position: center bottom;  /* Crop the bottom portion */
+    transform: translateY(20%); /*Adjust the percentage as needed */
     /* margin-top: -200px; */
+    margin-top: -10%;
     
 }
 
