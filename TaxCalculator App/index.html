@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Functions Example</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>TaxCalculator App</h1>
+        <hr> <br>
+        <input type="text" id="employeeName" placeholder="Enter the name of the employee"> <br> <br>
+        <!-- <p id="errorName">&nbsp</p> -->
+        <input type="text" id="salary" placeholder="Enter the salary"> <br> <br>
+        <!-- <p id="errorSalary">&nbsp</p> -->
+        <button id="btn" onclick="taxCalculator(document.getElementById('employeeName').value, document.getElementById('salary').value)">Calculate Tax</button> <br>
+        <p id="result">Tax Deductions: </p>
+        <!-- <input type="text" id="result" placeholder="Tax Deductions"> -->
+    </div>
+    
+    <script src="./app.js"></script>
+</body>
+</html>
